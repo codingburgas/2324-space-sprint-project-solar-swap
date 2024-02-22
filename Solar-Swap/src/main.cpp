@@ -28,6 +28,30 @@ float calculateSpeed(float force, float mass, float time) {
 
 }
 
+class Particle {
+
+private:
+
+    float mass;
+
+public:
+
+    Particle(float m) : mass(m) {}
+
+    Particle() : mass(0) {}
+
+    void interactWithHiggs(float delta_mass) {
+
+        // Gain mass after interacting with Higgs boson
+
+        mass += delta_mass;
+
+    }
+
+    float getMass() const { return mass; }
+
+};
+
 int main() {
 
     
