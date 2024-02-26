@@ -116,6 +116,33 @@ public:
     }
 
 };
+
+void drawParticle(float mass) {
+
+    // ASCII art representation of the particle
+    cout << "                     " << endl;
+    cout << "                /   \   " << endl;
+    cout << "/__/     " << endl;
+    cout << "/             \     /    " << endl;
+    cout << "                ___/" << endl;
+
+    cout << "Mass: " << mass << " kg" << endl;
+
+}
+class HiggsBoson {
+
+public:
+
+    float generateMassIncrease() {
+
+        // Simulate Higgs boson collision, randomly generate mass increase
+
+        return ((rand() % 10) / 10.0f) * 0.9f + 0.1f;// random mass increase 0.1 1
+
+    }
+
+};
+
 int main() {
 
     
