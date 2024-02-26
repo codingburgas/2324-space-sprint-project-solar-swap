@@ -128,6 +128,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\ElectromagneticForce.cpp" />
+    <ClCompile Include="src\Gravity.cpp" />
+    <ClCompile Include="src\HiggsBoson.cpp" />
+    <ClCompile Include="src\Particle.cpp" />
+    <ClCompile Include="src\drawParticle.cpp" />
+    <ClCompile Include="src\calculateSpeed.cpp" />
+    <ClCompile Include="src\SolarSwap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\electromagneticforce.h" />
+    <ClInclude Include="src\gravity.h" />
+    <ClInclude Include="src\drawParticle.h" />
+    <ClInclude Include="src\calculateSpeed.h" />
+    <ClInclude Include="src\SolarSwap.h" />
+    <ClInclude Include="src\particle.h" />
+    <ClInclude Include="src\higgsboson.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
