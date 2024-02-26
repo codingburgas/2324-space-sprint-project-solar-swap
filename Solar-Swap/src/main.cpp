@@ -17,6 +17,7 @@ int main() {
     float delta_mass = higgsBoson.generateMassIncrease();
     particle.interactWithHiggs(delta_mass);
     float mass = particle.getMass();
+
     cout << "Particle before forces applied:" << endl;
     cout << "/\\  " << endl;
     cout << "\\/  " << endl;
