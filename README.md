@@ -16,7 +16,7 @@
 
 ### Documentation
 
-[Team Documentation](https://github.com/codingburgas/2324-space-sprint-project-solar-swap/blob/docs/Solar-Swap-team_documentation_1.docx)
+[Team Documentation](https://github.com/codingburgas/2324-space-sprint-project-solar-swap/blob/main/Solar-Swap.docx)
 
 
 ### Presentation
